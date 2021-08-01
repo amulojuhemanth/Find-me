@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<title>database page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="index.js"></script>
+<body id="myPage">
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a  href="int.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">resources</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Price</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Database</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="https://www.dbta.com/Images/Default.aspx?ImageID=19031" alt="boat" style="width:100%;min-height:350px;max-height:500px;padding: 20px; border: black;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+   
+  </div>
+</div>
+
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>DATABASES</h2>
+
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="https://www.aalpha.net/wp-content/uploads/2019/05/postgre-database-development-india.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>PostgresSQL</h3>
+  <p style="font-family:emphasized;">PostgreSQL is a powerful, open source object-relational database system that uses and extends the SQL language combined with many features that safely store and scale the most complicated data workloads.</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="https://developer-tech.com/wp-content/uploads/sites/3/2021/02/mongodb-atlas-google-cloud-partnership-nosql-databases-integrations-2.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>MongoDB</h3>
+  <p style="font-family:emphasized;">MongoDB is a source-available cross-platform document-oriented database program.</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="https://avatars.githubusercontent.com/u/24268296?s=280&v=4" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>neDB</h3>
+  <p style="font-family:emphasized;">NeDB is a lightweight database written entirely in Javascript, and that implements the well-known and loved MongoDB API.</p>
+</div>
+
+</div>
+</div>
+
+
+
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>PRICING</h2>
+    <p>Choose a pricing plan that fits your needs.</p><br>
+    <form name="neDB" id="fisrt "><div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">neDB</p>
+        </li>
+        <li name="Storage" class="w3-padding-16"><b>SPECS</b> Storage</li>
+        <li name="B1S" class="w3-padding-16"><b>B1S</b></li>
+        <li name="1 vCPU" class="w3-padding-16"><b>1 vCPU(s)</b></li>
+        <li name="1 Gib RAM" class="w3-padding-16"><b>1 Gib RAM</b></li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-rupee"></i>0.541/Hour</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          
+          <button id="testBtn4"  class="w3-button w3-teal w3-padding-large" href="javascript:void(0)" class="w3-button w3-teal w3-padding-large"  onclick="addcartdb('NeDB')"><i class="fa fa-check"></i>Add to cart</button>
+        </li>
+      </ul>
+    </div></form>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">mongoDB</p>
+        </li>
+        <li class="w3-padding-16"><b>SPECS</b> Storage</li>
+        <li class="w3-padding-16"><b>F2s v2</b></li>
+        <li class="w3-padding-16"><b>2 vCPU(s)</b></li>
+        <li class="w3-padding-16"><b>4 gib RAM</b></li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-rupee"></i>6.096/Hour</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button id="testBtn5" class="w3-button w3-teal w3-padding-large" onclick="addcartdb('mongoDB')"><i class="fa fa-check"></i>Add to cart</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">PostgreSQL</p>
+        </li>
+        <li class="w3-padding-16"><b>Specs</b> Storage</li>
+        <li class="w3-padding-16"><b>E2 v4</b></li>
+        <li class="w3-padding-16"><b>2 vCPU(s)</b></li>
+        <li class="w3-padding-16"><b>16 Gib RAM</b></li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-rupee"></i>9.078/Hour</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button id="testBtn6" class="w3-button w3-teal w3-padding-large" onclick="addcartdb('postgreSQL')"><i class="fa fa-check"></i>Add to cart</button>
+        </li>
+      </ul>
+    </div>
+</div>
+
+
+   
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Powered by FIND ME!</p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+<script>
+ async function addcartdb(name_of_product){
+   
+  if(name_of_product == 'NeDB')  {
+    document.getElementById('testBtn4').innerText = "Added";
+  }else if(name_of_product == 'mongoDB'){
+    document.getElementById('testBtn5').innerText = "Added";}
+    else{
+    document.getElementById('testBtn6').innerText = "Added";}
+    addcart(name_of_product);
+    return false;
+}
+
+</script>
+</body>
+</html>

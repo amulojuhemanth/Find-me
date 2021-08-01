@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<title>virtual network</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+<script src="index.js"></script>
+  
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a  href="int.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">reesources</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Price</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Security</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="https://occ-0-1068-1722.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABTMgjqstXnbMNKtUHoMGIkzJv9ZjSNLtocRnpK2d9AQzEglcP-hGK9Gin-OS4IHCRIhWpI3ll3ENrkvkyiGYrCE6TSACIT2wdYns.png?r=097" alt="boat" style="width:100%;min-height:350px;max-height:400px; padding: 40px;;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+   
+  </div>
+</div>
+
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>SECURITY</h2>
+
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="https://media.istockphoto.com/vectors/shield-eye-vector-logo-design-protection-security-camera-vision-vector-id1156318540?k=6&m=1156318540&s=612x612&w=0&h=0wWHOpbFRlGh6qUl1TEwu34tHFoQbARVlSACkdr15W0=" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+ <h3>Detective control</h3>
+  <p style="font-family:emphasized;">Detective control is an accounting term that refers to a type of internal control intended to find problems within a company's processes once they have occurred. </p>
+</div>
+
+<div class="w3-quarter">
+  <img src="https://privacylawblog.lexblogplatformthree.com/wp-content/uploads/sites/489/2014/12/shutterstock_190449881-e1445011987249.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Data protection</h3>
+  <p style="font-family:emphasized;">Data protection is the process of safeguarding important information from corruption, compromise or loss. The importance of data protection increases as the amount of data created and stored continues to grow at unprecedented rates. </p>
+</div>
+
+<div class="w3-quarter">
+  <img src="https://support.forgetcomputers.com/hc/article_attachments/360017940152/iam.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Identity and Access management </h3>
+  <p style="font-family:emphasized;">Identity management, also known as identity and access management, is a framework of policies and technologies for ensuring that the right users have the appropriate access to technology resources.</p>
+</div>
+
+</div>
+</div>
+
+
+
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>PRICING</h2>
+    <p>Choose a pricing plan that fits your needs.</p><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Detective control</p>
+        </li>
+        <li class="w3-padding-16"><b>SPECS</b> Storage</li>
+        <li class="w3-padding-16"><b>B1S</b></li>
+        <li class="w3-padding-16"><b>1 vCPU(s)</b></li>
+        <li class="w3-padding-16"><b>1 Gib RAM</b></li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-rupee"></i>4.501/Hour</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button id="testBtn10" class="w3-button w3-teal w3-padding-large" onclick="addcartdb('Detective Control')"><i class="fa fa-check"></i>Add to cart</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">Data protection</p>
+        </li>
+        <li class="w3-padding-16"><b>SPECS</b> Storage</li>
+        <li class="w3-padding-16"><b>F2s v2</b></li>
+        <li class="w3-padding-16"><b>2 vCPU(s)</b></li>
+        <li class="w3-padding-16"><b>4 gib RAM</b></li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-rupee"></i>3.026/Hour</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button id="testBtn11" class="w3-button w3-teal w3-padding-large" onclick="addcartdb('Data Protection')"><i class="fa fa-check"></i>Add to cart</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Identity and Access management</p>
+        </li>
+        <li class="w3-padding-16"><b>Specs</b> Storage</li>
+        <li class="w3-padding-16"><b>E2 v4</b></li>
+        <li class="w3-padding-16"><b>2 vCPU(s)</b></li>
+        <li class="w3-padding-16"><b>16 Gib RAM</b></li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-rupee"></i>1.085/Hour</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button id="testBtn12" class="w3-button w3-teal w3-padding-large" onclick="addcartdb('Identity and Access Management')"><i class="fa fa-check"></i>Add to cart</button>
+        </li>
+      </ul>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Powered by FIND ME!</p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+async function addcartdb(name_of_product){
+if(name_of_product == 'Detective Control'){
+    document.getElementById('testBtn10').innerText = "Added";
+  }else if(name_of_product == 'Data Protection'){
+    document.getElementById('testBtn11').innerText = "Added";}
+    else{
+    document.getElementById('testBtn12').innerText = "Added";}
+    addcart(name_of_product);
+    return false;
+}
+</script>
+
+</body>
+</html>
